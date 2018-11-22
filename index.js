@@ -34,7 +34,8 @@ request(options, function (error, response, body) {
       for(a=0;a<data_json.data.list[i].tags.length;a++){
         data_tags[a] = data_json.data.list[i].tags[a].tagName
       }
-      var data_set = [data_writeTime,data_id,data_tiele,data_answer,data_tags]
+      hyperlink = '=HYPERLINK("' + data_id + '","' + data_tiele + '")'
+      var data_set = [data_writeTime,hyperlink,data_answer,data_tags]
       data_arr.push(data_set)
     }
   }
