@@ -13,9 +13,16 @@ npm install
 **执行**
 
 ```
-node index.js
+node one_day.js
 ```
+实现自动生成当天24小时问答内容
 
+**执行**
+
+```
+node one_day.js
+```
+实现自动生成当天24小时问答内容
 -----
 
 执行完成后即可看到生成当天时间的Excel文件。
