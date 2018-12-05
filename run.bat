@@ -1,1 +1,1 @@
-node one_day.js
+node index.js
